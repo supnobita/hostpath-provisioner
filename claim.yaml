@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: hostpath
   annotations:
-    volume.beta.kubernetes.io/storage-class: "mfs-hostpath"
+    volume.beta.kubernetes.io/storage-class: "hostpath"
 spec:
   accessModes:
     - ReadWriteMany

@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: hostpath-provisioner
-      image: docker.io/hostpath-provisioner:data
+      image: docker.io/supnobita/hostpath-provisioner:data
       imagePullPolicy: "IfNotPresent"
       env:
         - name: NODE_NAME
